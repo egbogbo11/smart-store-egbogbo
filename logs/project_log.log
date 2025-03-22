@@ -1,0 +1,6 @@
+2025-03-21 19:31:32.299 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-21 19:31:32.300 | INFO     | __main__:main:41 - Starting data preparation...
+2025-03-21 19:31:32.300 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-egbogbo\data\raw\customers_data.csv.
+2025-03-21 19:31:32.321 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-egbogbo\data\raw\products_data.csv.
+2025-03-21 19:31:32.323 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-egbogbo\data\raw\sales_data.csv.
+2025-03-21 19:31:32.339 | INFO     | __main__:main:45 - Data preparation complete.
