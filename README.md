@@ -124,5 +124,5 @@ py scripts\data_prep.py
 ```bash
 git add .
 git commit -m "Add starter files"
-git push -u origin main
+git push
 ```
