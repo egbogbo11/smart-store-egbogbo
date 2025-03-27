@@ -1,0 +1,9 @@
+productid,productname,category,unitprice,stockquantity,supplier
+101,laptop,Electronics,793.121,160,Apple
+102,hoodie,Clothing,39.1,200,Nike
+103,cable,Electronics,22.76,70,Samsung
+104,hat,Clothing,43.1,53,NewEra
+105,football,Sports,19.78,132,Wilson
+106,controller,Electronics,88.98,99,Sony
+107,jacket,Clothing,67.02,111,Nike
+108,protector,Electronics,12.56,205,Spigen
