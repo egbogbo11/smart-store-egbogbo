@@ -126,3 +126,35 @@ git add .
 git commit -m "Add starter files"
 git push
 ```
+
+# To complete Project 3
+
+## Step 1: Create scripts/data_scrubber.py
+
+In your scripts folder in your project, create a file named: data_scrubber.py
+
+Copy and paste the code from the example repo - https://github.com/denisecase/smart-sales-docs/
+
+Complete the TODO tasks in the data_scrubber.py script
+
+## Step 2. Create tests/test_data_scrubber.py
+
+Create a folder in your project named: tests
+
+Create a file in the test folder named: test_data_scrubber.py
+
+Copy and paste the code from the example repo.
+
+In the terminal, run the following command to test the DataScrubber:
+```bash
+py tests\test_data_scrubber.py
+```
+Verify that the test script ran without fail. 
+
+## Step 3: Use the DataScrubber by execute data_prep.py
+
+In the terminal, run the following command to run the data_prep.py script:
+```bash
+py scripts\data_prep.py
+```
+
