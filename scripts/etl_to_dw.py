@@ -14,7 +14,11 @@ DB_PATH = DW_DIR.joinpath("smart_sales.db")
 PREPARED_DATA_DIR = pathlib.Path("data").joinpath("prepared")
 
 def create_schema(cursor: sqlite3.Cursor) -> None:
-    """Create tables in the data warehouse if they don't exist."""
+    """Create tables in the data warehouse, dropping them first to ensure the latest schema."""
+    cursor.execute("DROP TABLE IF EXISTS customer")
+    cursor.execute("DROP TABLE IF EXISTS product")
+    cursor.execute("DROP TABLE IF EXISTS sale")
+
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS customer (
             customer_id INTEGER PRIMARY KEY,
@@ -22,7 +26,7 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             region TEXT,
             join_date TEXT,
             loyalty_points INTEGER,
-            preferred_contact_method, TEXT,
+            preferred_contact_method TEXT,
             standard_date_time TEXT
         )
     """)
@@ -46,6 +50,7 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             store_id INTEGER,
             sale_amount REAL,
             sale_date TEXT,
+            campaign_id INTEGER,
             discount_percent REAL,
             payment_type TEXT,
             FOREIGN KEY (customer_id) REFERENCES customer (customer_id),
