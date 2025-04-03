@@ -1,4 +1,4 @@
-ProductID,ProductName,Category,UnitPrice,StockQuantity,Supplier
+product_id,product_name,category,unit_price,stock_quantity,supplier
 101,laptop,Electronics,793.121,160,Apple
 102,hoodie,Clothing,39.1,200,Nike
 103,cable,Electronics,22.76,70,Samsung
