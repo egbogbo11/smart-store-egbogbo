@@ -157,4 +157,26 @@ In the terminal, run the following command to run the data_prep.py script:
 ```bash
 py scripts\data_prep.py
 ```
+# To complete Project 4
 
+## Step 1. Design Data Warehouse
+
+Create a suitable schema for for your data warehouse (star, snowflake or another dimensional) - whatever best suits your need. (We used the star schema in our project.)
+
+Sketch out the selected schema to describe how the database is structured
+
+# Step 2. Create Data Warehouse
+
+In the scripts folder, create a new file named etl_to_dw.py
+
+Optional: Create a separate SQL file in script to create and test your SQL statements to create the tables and relationships in SQLite. - see example repo
+
+In the etl_to_dw.py file, copy and paste script from the example in the example repo and adjust to match your schema and prepared data. 
+
+## Steo 3. Execute Script to Create Data Warehouse
+
+Once adjusted, use terminal to execute the file by using the following command:
+```bash
+py scripts/etl_to_dw.py
+```
+Verify your newly created data warehouse to ensure it makes the design of your schema. 
