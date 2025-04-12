@@ -173,10 +173,31 @@ Optional: Create a separate SQL file in script to create and test your SQL state
 
 In the etl_to_dw.py file, copy and paste script from the example in the example repo and adjust to match your schema and prepared data. 
 
-## Steo 3. Execute Script to Create Data Warehouse
+## Step 3. Execute Script to Create Data Warehouse
 
 Once adjusted, use terminal to execute the file by using the following command:
 ```bash
 py scripts/etl_to_dw.py
 ```
 Verify your newly created data warehouse to ensure it makes the design of your schema. 
+
+# Project 5 - Cross Platform Reporting with Power BI
+
+## SQL Queries and Reports
+- Created a Top Customer Query that joins the sales table with the customer table, adds up the sale amounts of each customer, and sorts the results from high to low. 
+- Created a Top Customer bar chart to show the highest spending customers
+- Created a Sales Trend line chart to show sales performance over time
+
+## Dashboard Design Choices
+- The bar chart for Top Customers is based off total purchases
+- The line chart for Sales Trend displays sales over the year, quarter, and month
+- A slicer was created to filter all the visuals by product category
+
+## Power BI Model View
+![Model View](model_view.png)
+
+## SQL Query Results
+![Query Results](query_results.png)
+
+## Final Dashboard
+![Final Dashboard](final_dashboard.png)
