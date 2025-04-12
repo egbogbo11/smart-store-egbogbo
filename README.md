@@ -194,10 +194,10 @@ Verify your newly created data warehouse to ensure it makes the design of your s
 - A slicer was created to filter all the visuals by product category
 
 ## Power BI Model View
-![Model View](screenshots/model_view.png)
+![Model View](model_view.png)
 
 ## SQL Query Results
-![Query Results](screenshots/query_results.png)
+![Query Results](query_results.png)
 
 ## Final Dashboard
-![Final Dashboard](screenshots/final_dashboard.png)
+![Final Dashboard](final_dashboard.png)
